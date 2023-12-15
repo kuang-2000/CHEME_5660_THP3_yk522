@@ -149,8 +149,7 @@ function main(; risk_free_rate::Float64 = 0.05, Δt::Float64 = (1.0/252.0),
 end
 
 # TODO: specify the tickers in your portfolio -
-mytickers = ["V", "AVGO", "AMZN", "PEP", "ADBE", "SPY"]
-
+mytickers =  ["MRK", "AMD","V","AMZN","MSFT","NVDA","TSLA","MSFT","PHM","WST"]
 # TODO: specify the groupname -
 groupname = "NewCo";
 
